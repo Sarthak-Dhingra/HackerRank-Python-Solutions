@@ -9,8 +9,9 @@ import sys
 # Complete the birthdayCakeCandles function below.
 def birthdayCakeCandles(ar):
     count=0
+    comp=max(ar)
     for i in ar:
-        if i==max(ar):
+        if i==comp:
             count+=1
     return count
 
